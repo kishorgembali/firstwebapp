@@ -20,6 +20,7 @@ namespace firstwebapp
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    //test comment
                     webBuilder.UseStartup<Startup>();
                 });
     }
